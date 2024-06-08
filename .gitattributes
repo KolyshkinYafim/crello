@@ -1,0 +1,12 @@
+# Установить для всех текстовых файлов нормализацию окончания строк
+* text=auto
+
+# Настройка для JavaScript/TypeScript и конфигурационных файлов
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+*.mjs text eol=lf
