@@ -1,0 +1,12 @@
+.button {
+  @apply rounded-lg bg-transparent border border-purple-400 py-2 px-7 text-base font-medium text-white;
+  @apply transform transition-transform duration-300;
+}
+
+.button:hover {
+  @apply scale-110 bg-purple-300 cursor-pointer;
+}
+
+.button:active {
+  @apply bg-purple-800;
+}

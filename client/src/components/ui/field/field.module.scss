@@ -1,0 +1,15 @@
+.label{
+  @apply text-sm text-white/60 dark:text-white ml-1.5 font-medium
+}
+
+.fieldHolder {
+@apply bg-transparent
+}
+
+.input{
+  @apply  ml-10 bg-transparent text-black
+}
+
+.input::placeholder {
+  @apply text-gray-800
+}

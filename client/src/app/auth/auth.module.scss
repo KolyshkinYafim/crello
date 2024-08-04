@@ -1,0 +1,19 @@
+.formHandler {
+  @apply flex min-h-screen bg-blue-400
+}
+
+.form{
+  @apply w-1/4 m-auto shadow rounded-xl flex flex-col items-center justify-center bg-gray-500
+}
+
+.formButtons{
+  @apply flex items-center justify-center gap-5 my-5
+}
+
+.formHeader{
+
+}
+
+.formFields{
+
+}

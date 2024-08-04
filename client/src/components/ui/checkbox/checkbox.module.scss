@@ -1,0 +1,11 @@
+.checkbox{
+  @apply defaultCheckbox relative inline-flex h-[20px] min-h-[20px] w-[20px] h-[20px] min-h-[20px] appearance-none items-center justify-center rounded-md border border-gray-300 outline-none ease-linear checked:border-none checked:text-white hover:cursor-pointer
+}
+
+.checkboxHolder{
+  @apply flex items-center me-4;
+}
+
+.label{
+  @apply ms-2 text-sm font-medium text-gray-600
+}
